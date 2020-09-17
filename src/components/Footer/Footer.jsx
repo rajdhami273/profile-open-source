@@ -5,7 +5,7 @@ const Footer = (props) => {
   return (
     <div className="footer-container">
       <div className="footer-wrapper">
-        Made with <Icon src="assets/media/love.png" link={""} /> free for all
+        Made with <Icon src="assets/media/love.png" link={""} /> free for all.
         {/* by Me! */}
       </div>
     </div>
