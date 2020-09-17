@@ -29,7 +29,7 @@ const CommonLayout = (props) => {
     } catch (error) {
       console.log("Error");
     } finally {
-      firebase.analytics().logEvent("page_view", { ip: ip });
+      firebase.analytics().logEvent("user_ip", { ip: ip });
     }
   };
 
