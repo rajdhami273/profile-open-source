@@ -6,11 +6,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --mode development --host 0.0.0.0",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "dev": "lite-server"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rajdhami273/profile.git"
+    "url": "git+https://github.com/rajdhami273/my-profile-reactjs.git"
   },
   "keywords": [
     "Profile",
@@ -19,9 +20,9 @@
   "author": "Rajendra Dhami",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rajdhami273/profile/issues"
+    "url": "https://github.com/rajdhami273/my-profile-reactjs/issues"
   },
-  "homepage": "https://github.com/rajdhami273/profile#readme",
+  "homepage": "https://github.com/rajdhami273/my-profile-reactjs#readme",
   "devDependencies": {
     "@babel/cli": "^7.10.5",
     "@babel/core": "^7.11.1",
@@ -29,8 +30,10 @@
     "@babel/preset-env": "^7.11.0",
     "@babel/preset-react": "^7.10.4",
     "babel-loader": "^8.1.0",
+    "copy-webpack-plugin": "^6.1.0",
     "css-loader": "^4.2.1",
     "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.4.1",
     "style-loader": "^1.2.1",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12",
@@ -39,8 +42,12 @@
   "dependencies": {
     "@babel/plugin-transform-runtime": "^7.11.5",
     "axios": "^0.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-history-api-fallback": "^2.2.1",
     "firebase": "^7.20.0",
     "history": "^5.0.0",
+    "http": "0.0.1-security",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
