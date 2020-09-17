@@ -1,0 +1,15 @@
+.icon-container {
+  width: 25px;
+  height: 25px;
+  margin: 8;
+  transition: width 0.2s, height 0.1s;
+}
+
+.icon-container:hover {
+  width: 30px;
+  height: 30px;
+}
+/* .icon {
+  width: 10px;
+  height: 10px;
+} */

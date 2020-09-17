@@ -1,0 +1,19 @@
+.footer-container {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  width: 100%;
+  /* background-color: tomato; */
+  height: 50px;
+  text-align: center;
+  pointer-events: none;
+}
+
+.footer-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  pointer-events: all;
+}
