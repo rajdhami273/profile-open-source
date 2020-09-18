@@ -9,7 +9,7 @@ link here: https://codepen.io/ahmadbassamemran/pen/yLBXBmy
 
 Rest all is my creation. So feel free to do anything with it.
 
-Got some questions? A details explaination perhaps? Feel free to mail me on raazthemystery273@gmail.com
+Got some questions? A details explanation perhaps? Feel free to mail me on raazthemystery273@gmail.com
 
 Steps to run (NodeJS and npm required): 
 
