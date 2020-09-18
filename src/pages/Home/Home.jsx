@@ -16,56 +16,50 @@ const Home = (props) => {
           </div>
           <div className="middle">
             <div className="greetings">
-              <div className="left-align">Hello | Namastey </div>
+              Full Stack Developer.
+              {/* <div className="left-align">Hello | Namastey </div> */}
+            </div>
+            <div className="short-desc">
+              I make Mobile and Web Applications.
             </div>
             {/* <br></br>
             <br></br> */}
             <div className="intro-wrapper">
-              <div className="intro">My name is Rajendra Dhami.</div>
+              <div className="intro">My name is John Doe.</div>
             </div>
             <div className="icons-bar">
-              <Icon
-                src={"../../../assets/media/linkedin.png"}
-                link={"https://www.linkedin.com/in/rajendra-dhami/"}
-              />
-              <Icon
-                src={"../../../assets/media/github.png"}
-                link={"https://github.com/rajdhami273"}
-              />
+              <Icon src={"../../../assets/media/linkedin.png"} link={""} />
+              <Icon src={"../../../assets/media/github.png"} link={""} />
               {/* <Icon src={"../../../assets/media/facebook.png"} />
               <Icon src={"../../../assets/media/instagram.png"} /> */}
-              <Icon
-                src={"../../../assets/media/mail.png"}
-                link={"mailto:rajdhami273@gmail.com"}
-              />
+              <Icon src={"../../../assets/media/mail.png"} link={""} />
             </div>
           </div>
           <div className="description">
             {/* <div className="heading">Something about me?</div> */}
             <div className="desc-text">
-              A young and enthusiastic 24-years-old <b>Full Stack Web and Mobile Apps Developer</b> with
-              2+ years of experience.
+              A young and enthusiastic <span class="rotate">8</span>-years-old{" "}
+              <b>Full Stack Web and Mobile Apps Developer</b> with 2+ years of
+              experience.
             </div>
             <div className="desc-text">
               Currently working for a super-cool startup called{" "}
-              <a
-                href="http://www.morfsys.com/"
-                target="_blank"
-                className="text-link"
-              >
-                <b>Morfsys</b>
+              <a href="" target="_blank" className="text-link">
+                <b>MyCompany</b>
               </a>
               !
             </div>
-            <div className="desc-text" style={{marginTop: 5, marginBottom: 5}}>
+            <div
+              className="desc-text"
+              style={{ marginTop: 5, marginBottom: 5 }}
+            >
               What do I do apart from coding ? <br></br>
-              In love with anything related to soccer
-              and playing guitar.
+              In love with anything related to soccer and playing guitar.
             </div>
             Quote that drives me:
             <div className="desc-text">
-              &emsp;&emsp;"Only way to stay hungry and motivated is to assume
-              that you know nothing about it, no matter how far you have come."
+              &emsp;&emsp;"Quote that drives you is the quote you write here.
+              Else change everything as required. Feel free to ask questions."
             </div>
           </div>
         </div>

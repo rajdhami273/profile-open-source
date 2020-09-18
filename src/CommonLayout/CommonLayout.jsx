@@ -1,11 +1,9 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Particles from "react-particles-js";
 import Home from "../pages/Home/Home";
 import Header from "../components/Header/Header";
 import "./CommonLayout.css";
 import Footer from "../components/Footer/Footer";
-import * as firebase from "firebase";
-import axios from "axios";
 const CommonLayout = (props) => {
   const [darkMode, toggleDarkMode] = useState(false);
   const routes = [{ path: "/", exact: true, component: <Home /> }];
@@ -18,24 +16,7 @@ const CommonLayout = (props) => {
     toggleDarkMode(!darkMode);
   };
 
-  const logPageViewWithIP = async () => {
-    let ip = "";
-    try {
-      const ipdata = await axios.get("https://api.ipify.org?format=json");
-      if (ipdata) {
-        ip = ipdata.data.ip;
-        console.log(ip);
-      }
-    } catch (error) {
-      console.log("Error");
-    } finally {
-      firebase.analytics().logEvent("user_ip", { ip: ip });
-    }
-  };
-
-  useEffect(() => {
-    logPageViewWithIP();
-  }, []);
+  
   return (
     <div className="App">
       <Header />

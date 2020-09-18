@@ -41,11 +41,6 @@
   },
   "dependencies": {
     "@babel/plugin-transform-runtime": "^7.11.5",
-    "axios": "^0.20.0",
-    "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "express-history-api-fallback": "^2.2.1",
-    "firebase": "^7.20.0",
     "history": "^5.0.0",
     "http": "0.0.1-security",
     "prop-types": "^15.7.2",
